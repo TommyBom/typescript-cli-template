@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "",
+    "start": "tsx src/main.ts",
+    "start:verbose": "npm start -- -v",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "format": "prettier --write .",
