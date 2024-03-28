@@ -2,8 +2,8 @@
   "scripts": {
     "start": "tsx src/main.ts",
     "start:verbose": "npm start -- -v",
-    "lint": "ng lint",
-    "lint:fix": "ng lint --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
